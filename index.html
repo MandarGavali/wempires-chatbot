@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEMPIRE - Premium Clothing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1 class="logo">⚜ WEMPIRE</h1>
+            <nav>
+                <a href="#products">Products</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Premium Men's Clothing</h2>
+            <p>Discover our collection of polo shirts and t-shirts</p>
+            <button class="cta-btn">Shop Now</button>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2 class="section-title">Our Collection</h2>
+
+            <div class="product-grid">
+                <!-- Polo Shirts -->
+                <div class="product-card">
+                    <div class="product-image" style="background: linear-gradient(135deg, #e74c3c, #c0392b);"></div>
+                    <h3>Wempire Polo Red</h3>
+                    <p class="price">₹599.00</p>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image" style="background: linear-gradient(135deg, #2c3e50, #1a1a1a);"></div>
+                    <h3>Wempire Polo Black</h3>
+                    <p class="price">₹599.00</p>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image" style="background: linear-gradient(135deg, #d4a373, #c89968);"></div>
+                    <h3>Wempire Polo Peach</h3>
+                    <p class="price">₹599.00</p>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image" style="background: linear-gradient(135deg, #5dade2, #3498db);"></div>
+                    <h3>Wempire Polo Sky Blue</h3>
+                    <p class="price">₹599.00</p>
+                </div>
+
+                <!-- T-Shirts -->
+                <div class="product-card">
+                    <div class="product-image" style="background: linear-gradient(135deg, #e8b4b8, #c89197);"></div>
+                    <h3>Standard Essential Rose Dust</h3>
+                    <p class="price">₹399.00</p>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image" style="background: linear-gradient(135deg, #34495e, #2c3e50);"></div>
+                    <h3>Standard Essential Black</h3>
+                    <p class="price">₹399.00</p>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image" style="background: linear-gradient(135deg, #d4c5a9, #c4b5a0);"></div>
+                    <h3>Standard Essential Cream</h3>
+                    <p class="price">₹399.00</p>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image" style="background: linear-gradient(135deg, #7fb3d5, #5499c7);"></div>
+                    <h3>Standard Essential Aqua</h3>
+                    <p class="price">₹399.00</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About WEMPIRE</h2>
+            <p>We craft premium quality clothing for the modern man. Our collection features comfortable polo shirts and
+                essential t-shirts designed for everyday wear.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p>📞 Phone: +91-9876543210</p>
+            <p>📧 Email: support@wempire.com</p>
+            <p>📍 Location: Mumbai, India</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 WEMPIRE. All rights reserved.</p>
+    </footer>
+
+    <!-- Chatbot Widget -->
+    <div class="chat-widget">
+        <!-- Chat Button -->
+        <button id="chatBtn" class="chat-button">
+            💬
+        </button>
+
+        <!-- Chat Window -->
+        <div id="chatWindow" class="chat-window">
+            <div class="chat-header">
+                <h3>WEMPIRE Support</h3>
+                <button id="closeChat" class="close-btn">✕</button>
+            </div>
+            <div class="chat-body" id="chatBody">
+                <div class="bot-message">
+                    <p>Hi! Welcome to WEMPIRE 👋<br>How can I help you today?</p>
+                </div>
+            </div>
+            <div class="chat-input">
+                <input type="text" id="userInput" placeholder="Type your message...">
+                <button id="sendBtn">➤</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="chatbot.js"></script>
+</body>
+
+</html>
